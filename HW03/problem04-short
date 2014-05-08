@@ -1,0 +1,23 @@
+...
+	public static void main(String[] args) {
+		...
+		// estimate
+		double x = 1.5;
+		
+		System.out.printf("x = %.14f\n", findNRzero(x, 1e-14));
+	}
+	
+	/**
+	 * Declaration of the function we're interested in
+	 */
+	private static double f(double x){
+		return Math.sqrt(2)-x;
+	}
+	
+	/**
+	 * Declaration of the 1st derivative of f
+	 */
+	private static double f1(double x){
+		return -1.;
+	}
+...
