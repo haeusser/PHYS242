@@ -6,7 +6,7 @@ public class MDMain {
 	static boolean printXvalues = true;	// for plotting/debugging
 	static final int 	N = 30;			// number of atoms, N>1
 	static double 		h = 0.02,		// time step size
-			     		tEquil = 500,	// time we discard for <v^2> estimate
+			     		tEquil = 1000,	// time we discard for <v^2> estimate
 			     		tEstim = 4000,	// time we run the actual simulation
 			     		delta = 1./3,	// symmetry-avoiding shift for v init.
 			     		binSize = 0.1, // bin size for velocity histogram

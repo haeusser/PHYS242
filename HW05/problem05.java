@@ -36,7 +36,7 @@ public class problem05 {
 		avgX /= (tMax-tMin); // normalize <<x>>
 		
 		// print <<x>> (with preceding # so that my plotting program doesn't get confused)
-		System.out.printf("# <<x(t)>> = %.4f", avgX);
+		System.out.printf("# <<x(t)>> = %.6f", avgX);
 	}
 
 	/**
