@@ -52,7 +52,10 @@ public class problem03 {
 	 *       
 	 */
 		double[] result = new double[2];
-		result[1] = (int)(y*Math.log10(Math.E));
+		// exponent:
+		result[1] = (int)(y*Math.log10(Math.E)); // !! round to int (=> mantissa != 1)
+		
+		// mantissa:
 		result[0] = Math.exp(y-result[1]*Math.log(10));
 		return result;
 	}
