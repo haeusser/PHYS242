@@ -12,8 +12,8 @@ public class problem02 {
 		// constants
 		double t0 = 0,
 			   tn = 7.416,
-			   dt  = 0.02,
-			   E  = 0.25;
+			   dt  = 0.02;
+			   //E  = 0.25;
 		
 		// RK4 with 1 period
 	    philIO.tools.initializeIO("HW04-2-RK4-1.txt");
